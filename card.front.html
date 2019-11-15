@@ -1,0 +1,36 @@
+<div class="center">{{Image}}</div>
+</br>
+<div class="kyokasho">{{cloze:Jap sent}}</div>
+
+<center><div id=questions style="text-align:left;"></div></center>
+<script>
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex ;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
+var right = "{{Correct}}";
+var all = [right, "{{Wrong1}}", "{{Wrong2}}", "{{Wrong3}}"];
+var buf = "<div class='kyokasho_sq'><ol type=a>";
+shuffle(all);
+for (var i=0; i<4; i++) {
+	buf += "<li>"+all[i];
+}
+buf += "<ol type=a></div>";
+
+document.getElementById("questions").innerHTML = buf;
+</script>

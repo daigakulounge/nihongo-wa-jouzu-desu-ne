@@ -1,0 +1,42 @@
+<div class="center">{{Image}}</div>
+</br>
+
+<div class="kyokasho">{{cloze:Jap sent}}</div>
+
+<div class="kyokasho_s">{{Jap hirkat}}</div>
+</br>
+<div class="center">{{Eng sent}}</div>
+
+{{Sound}}
+
+<div id=ansArea></div>
+
+
+<script>
+var buf = "<div class='kyokasho_sa'><ol type=a>";
+var ans;
+for (var i=0; i<4; i++) {
+	
+	if (all[i] == right) {
+		ans = "<div class='kyokasho_s_right'>"+all[i]+"</div>";
+
+	}
+	else {
+		ans = "<div class='kyokasho_s_wrong'>"+all[i]+"</div>";
+}
+	buf += "<li>"+ans;
+}
+buf += "<ol type=a></div>";
+document.getElementById("ansArea").innerHTML = buf;
+</script>
+
+<!----!>
+<!-- for tests: 
+<div class='kyokasho_sa'>
+<ol type=a>
+<li><div class='kyokasho_s_right'>{{Correct}}</div>
+<li><div class='kyokasho_s_wrong'>{{Wrong1}}</div>
+<li><div class='kyokasho_s_wrong'>{{Wrong2}}</div>
+<li><div class='kyokasho_s_wrong'>{{Wrong3}}</div>
+<ol type=a></div>
+--!>

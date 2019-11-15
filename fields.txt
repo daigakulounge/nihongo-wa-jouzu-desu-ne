@@ -1,0 +1,11 @@
+1. Number
+2. Jap sent
+3. Sound
+4. Image
+5. Correct
+6. Jap sent full
+7. Jap hirkat
+8. Eng sent
+9. Wrong1
+10. Worng2
+11. Wrong3
