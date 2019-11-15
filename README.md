@@ -8,7 +8,7 @@
 
 Вот ссылка на все колоды (по три варианта дизайна, об этом ниже)
 
-https://mega.nz/#F!XUVlnYjb!nkMyxtTY-vTi2X6fXkmdSQ
+https://mega.nz/#F!qH52gYrR!TBSEeXO3M2ygLbR5erRnRA
 
 ### Для средней ленивости
 
