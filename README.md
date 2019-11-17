@@ -46,8 +46,24 @@ download_bool = True
 
 
 Вот так выглядят карточки на десктопном Anki (Windows)
-
-**TODO**
+black.css   
+<br>
+<img src="https://i.imgur.com/4MMcKF4.png" alt="alt text" height=200>
+<img src="https://i.imgur.com/qBBVwvz.png" alt="alt text" height=200>
+<br>
+<br>
+dark.css   
+<br>
+<img src="https://i.imgur.com/YRTMpi1.png" alt="alt text" height=200>
+<img src="https://i.imgur.com/bdaHNHD.png" alt="alt text" height=200>
+<br>
+<br>
+light.css   
+<br>
+<img src="https://i.imgur.com/CbqGGnq.png" alt="alt text" height=200>
+<img src="https://i.imgur.com/oX93vML.png" alt="alt text" height=200>
+<br>
+<br>
 
 К сожалению, красивость в виде js-рандомного списка не особо работает на обратной стороне карточек на AnkiDroid (что не мешает им быть рабочими)
 
